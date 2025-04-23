@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskPixel - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    .hero-bg {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-bg.jpg') no-repeat center center/cover;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <!-- Add your navigation menu here -->
+  <nav class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-3xl font-bold">TaskPixel</a>
+      <div>
+        <a href="index.html" class="px-6">Home</a>
+        <a href="about.html" class="px-6">About Us</a>
+        <a href="services.html" class="px-6">Services</a>
+        <a href="portfolio.html" class="px-6">Portfolio</a>
+        <a href="contact.html" class="px-6">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-bg flex items-center justify-center text-center text-white">
+    <div class="container mx-auto">
+      <h1 class="text-5xl font-bold mb-4" data-aos="fade-up">TaskPixel - Web Development at Its Best</h1>
+      <p class="text-2xl mb-8" data-aos="fade-up" data-aos-delay="200">We help businesses grow online with cutting-edge web solutions.</p>
+      <a href="contact.html" class="bg-yellow-500 text-white py-3 px-6 rounded-full hover:bg-yellow-400 transition" data-aos="fade-up" data-aos-delay="400">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 TaskPixel. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
